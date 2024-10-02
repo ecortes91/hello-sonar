@@ -5,7 +5,7 @@ FROM python:3.10-slim
 WORKDIR /app
 
 # Copiar el script al contenedor
-COPY app.py .
+COPY hello.py .
 
 # Comando para ejecutar la aplicación
-CMD ["python", "app.py"]
+CMD ["python", "hello.py"]
